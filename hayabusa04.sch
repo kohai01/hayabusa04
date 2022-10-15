@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:hayabusa04-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -580,4 +581,15 @@ Text GLabel 3650 2900 2    50   Input ~ 0
 ROW1
 Text GLabel 3650 4200 2    50   Input ~ 0
 ROW0
+$Comp
+L Device:R_Small R?
+U 1 1 634ADF57
+P 8100 2300
+F 0 "R?" H 8159 2346 50  0000 L CNN
+F 1 "R_Small" H 8159 2255 50  0000 L CNN
+F 2 "" H 8100 2300 50  0001 C CNN
+F 3 "~" H 8100 2300 50  0001 C CNN
+	1    8100 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
