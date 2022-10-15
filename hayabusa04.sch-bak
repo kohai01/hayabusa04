@@ -572,4 +572,12 @@ Text GLabel 5400 3400 0    50   Input ~ 0
 ROW0
 Text GLabel 5400 4000 0    50   Input ~ 0
 ROW1
+Text GLabel 3650 2700 2    50   Input ~ 0
+COL1
+Text GLabel 3650 2800 2    50   Input ~ 0
+COL0
+Text GLabel 3650 2900 2    50   Input ~ 0
+ROW1
+Text GLabel 3650 4200 2    50   Input ~ 0
+ROW0
 $EndSCHEMATC
