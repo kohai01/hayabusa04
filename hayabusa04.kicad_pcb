@@ -627,7 +627,7 @@
       (net 14 "Net-(R3-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 34795dbd-64a9-46dc-a4f5-85ff87941db3))
     (pad "3" smd rect locked (at 3.1 1.85 180) (size 1.8 1.1) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp bcd9dab6-b339-4db9-b7a1-cbcf1a32eb0b))
     (pad "4" smd rect locked (at -3.1 -1.85 180) (size 1.8 1.1) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp c1fae282-43bb-44ea-b533-4cf1a7472554))
-    (model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_TL3342.step"
+    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3342.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -902,6 +902,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
+    (model "${KIPRJMOD}/marbastlib-mx.pretty/3d/HS_Kailh_MX.step"
+      (offset (xyz -4.826 6.7399916 1.905))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
   )
 
   (footprint "marbastlib-mx:SW_MX_HS_1u" (layer "B.Cu")
@@ -988,6 +993,11 @@
     )
     (model "${KIPRJMOD}/../3d/HS_Kailh_MX.step"
       (offset (xyz -4.82 6.74 1.82))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
+    (model "${KIPRJMOD}/marbastlib-mx.pretty/3d/HS_Kailh_MX.step"
+      (offset (xyz -4.826 6.7399916 1.905))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
@@ -1116,6 +1126,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/TYPE-C-31-M-12/TYPE-C-31-M-12.step"
+      (offset (xyz 0 -1.016 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (footprint "marbastlib-mx:SW_MX_HS_1u" (layer "B.Cu")
@@ -1191,7 +1206,7 @@
     (pad "2" thru_hole circle (at -2.54 5.08 180) (size 3.3 3.3) (drill 3) (layers *.Cu *.Mask)
       (net 8 "COL0") (pinfunction "2") (pintype "passive") (tstamp a2599c11-0854-4fa1-9320-30f08511dc4a))
     (model "${KIPRJMOD}/marbastlib/3d/HS_Kailh_MX.step"
-      (offset (xyz -4.82 6.74 1.82))
+      (offset (xyz -0 6.7399916 1.8200116))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
@@ -1202,6 +1217,11 @@
     )
     (model "${KIPRJMOD}/../3d/HS_Kailh_MX.step"
       (offset (xyz -4.82 6.74 1.82))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
+    (model "${KIPRJMOD}/marbastlib-mx.pretty/3d/HS_Kailh_MX.step"
+      (offset (xyz -4.826 6.74624 1.905))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
@@ -1389,6 +1409,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
+    (model "${KIPRJMOD}/marbastlib-mx.pretty/3d/HS_Kailh_MX.step"
+      (offset (xyz -4.826 6.7399916 1.905))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
   )
 
   (footprint "Fuse:Fuse_1206_3216Metric" (layer "B.Cu")
@@ -1441,8 +1466,11 @@
   (gr_arc (start 111.913317 57.94375) (mid 112.610787 56.259984) (end 114.294567 55.5625) (layer "Edge.Cuts") (width 0.05) (tstamp e346444b-ac91-4a21-a40d-a6c9715c722a))
   (gr_arc (start 114.294567 93.6625) (mid 112.610751 92.965051) (end 111.913317 91.28125) (layer "Edge.Cuts") (width 0.05) (tstamp f5ae9b16-ee84-4d6c-b62f-ed9f344fdfa0))
   (gr_line (start 189.70625 93.6625) (end 114.294567 93.6625) (layer "Edge.Cuts") (width 0.05) (tstamp fe93c0a1-056b-4cd5-94e1-d9d2680ca3a9))
-  (gr_text "hayabusa04" (at 183.388 91.567) (layer "F.SilkS") (tstamp a2c67098-11e4-4536-8622-cb194e55da85)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text "cohai1110" (at 186.309 92.583) (layer "F.SilkS") (tstamp 64abe48f-f56b-4e80-a1bb-f2ab09ac8026)
+    (effects (font (size 0.508 1.016) (thickness 0.0992)))
+  )
+  (gr_text "hayabusa04" (at 182.499 91.059) (layer "F.SilkS") (tstamp a2c67098-11e4-4536-8622-cb194e55da85)
+    (effects (font (size 0.992 2.008) (thickness 0.20228)))
   )
 
   (segment (start 131.826 77.47) (end 136.4915 77.47) (width 0.381) (layer "B.Cu") (net 1) (tstamp 0dd9486e-d2e3-4dd8-aac2-fd021c4d493f))
